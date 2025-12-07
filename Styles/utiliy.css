@@ -1,0 +1,46 @@
+h1 {
+  font: var(--title-lg);
+}
+
+h2 {
+  font: var(--title-md);
+}
+
+h3 {
+  font: var(--Subtitle);
+}
+
+h4 {
+  font: var(--text-sm);
+}
+
+h5 {
+  font: var(--title-sm);
+}
+.color-gray-200 {
+  color: var(--cor-gray-200);
+}
+
+.color-purple {
+  color: var(--cor-purple);
+}
+h6 {
+  font: var(--text-md);
+}
+
+.main1t {
+  color: var(--cor-gray-100);
+}
+
+.destaque {
+  color: var(--cor-red);
+}
+
+.arrow {
+  padding-top: 94px;
+  padding-bottom: 57px;
+}
+
+p {
+  font: var(--text-sm);
+}

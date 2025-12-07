@@ -1,0 +1,41 @@
+/* Seletor universal para não ter erro de espaçamento, ele zera completamente o padding e o margin. o box é para definir a largura */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* {C}primarias */
+  --cor-red: #e3646e;
+  --cor-purple: #bb72e9;
+  --cor-blue: #3996db;
+  --cor-green: #82bc4f;
+  --cor-yellow: #eabd5f;
+
+  /* {C}Secundarias  */
+
+  --cor-gray-100: #e2e4e9;
+  --cor-gray-200: #c0c4ce;
+  --cor-gray-300: #878ea1;
+  --cor-gray-400: #292c34;
+  --cor-gray-500: #16181d;
+  --cor-gray-600: #0d0e11;
+
+  /* Fonts */
+  --font-title: "asap", sans-serif;
+  --font-sub: "inconsolata", sans-serif;
+  --font-text: "maven-pro", sans-serif;
+
+  --title-lg: 700 56px/120% var(--font-title);
+  --title-md: 700 24px/120% var(--font-title);
+  --title-sm: 700 16px/120% var(--font-title);
+  --Subtitle: 400 20px/120% var(--font-sub);
+  --text-md: 400 16px/140% var(--font-text);
+  --text-sm: 400 14px/140% var(--font-text);
+}
+
+body {
+  background-color: var(--cor-gray-600);
+}
